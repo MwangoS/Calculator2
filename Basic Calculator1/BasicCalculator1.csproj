@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Basic_Calculator1</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Divide1\Divide1.csproj" />
+    <ProjectReference Include="..\Operations1\Operations1.csproj" />
+    <ProjectReference Include="..\Sum1\Sum1.csproj" />
+  </ItemGroup>
+
+</Project>

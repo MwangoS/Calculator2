@@ -9,28 +9,28 @@ namespace Operations.Tests
     [TestClass()]
     public class MultiplicationTests
     {
-        private readonly int a = 25;
-        private readonly int b = 7;
-        private readonly double c = 5.3;
-        private readonly double d = 2.5;
-        private readonly double[] arrayA = { 2, 6, 1, 4 }; 
+        private readonly int a = 2;
+        private readonly int b = 15;
+        private readonly double c = 1.2;
+        private readonly double d = 3.2;
+        private readonly double[] e = { 2.1, 3.2, 2.0 };
 
         [TestMethod()]
         public void MultiplyTest()
         {
-            Assert.AreEqual(175, Multiplication.Multiply(a, b));
+            Assert.AreEqual(30, Multiplication.Multiply(a, b ));
         }
 
         [TestMethod()]
         public void MultiplyDoubleTest()
         {
-            Assert.AreEqual(13.25, Multiplication.Multiply(c, d));
+            Assert.AreEqual(3.84, Multiplication.Multiply(c, d));
         }
 
         [TestMethod()]
         public void MultiplyDoubleArrayTest()
         {
-            Assert.AreEqual(0, Multiplication.Multiply(arrayA));
+            Assert.AreEqual(0, Multiplication.Multiply(e));
         }
     }
 }
