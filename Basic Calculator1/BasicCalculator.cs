@@ -8,15 +8,15 @@ namespace Basic_Calculator1
     public interface IBasicCalculator
     {
         public dynamic Add(dynamic a, dynamic b);
-        public dynamic Divide(dynamic a, dynamic b);
+        //public dynamic Divide(dynamic a, dynamic b);
 
     }
 
-    public class Calculator : IAdd, IDivide
+    public class Calculator : IAdd
     {
         // Creating objects of Geeks1 and Geeks2 class 
-        Adding add = new Adding();
-        Div divide = new Div();
+        private readonly Adding add = new Adding();
+        private readonly Div divide = new Div();
         public dynamic result;
 
         public dynamic Add(dynamic a, dynamic b)
@@ -25,12 +25,12 @@ namespace Basic_Calculator1
             return result;
         }
 
-        public dynamic Divide(dynamic a, dynamic b)
+        /*public dynamic Divide(dynamic a, dynamic b)
         {
             result = divide.Divide(a, b);
             return result;
 
-        }
+        }*/
 
     }
 }

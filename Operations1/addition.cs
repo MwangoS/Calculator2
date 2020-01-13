@@ -13,7 +13,7 @@ namespace Operations
             return a + b;
         }
 
-       /* public static double Sum(double[] arrayA)
+        public static double Sum(double[] arrayA)
         {
             double c = 0.0;
 
@@ -23,12 +23,14 @@ namespace Operations
             }
 
             return c;
-        }*/
+        }
+        /*
 
         /*public static dynamic Sum(object p, dynamic[] c)
         {
             throw new NotImplementedException();
         }
+        */
         public static int Sum(int[] arrayA)
         {
             int c = 0;
@@ -37,7 +39,7 @@ namespace Operations
                 c = Sum(a, c);
             }
             return c;
-        }*/
+        }
 
     }
 
