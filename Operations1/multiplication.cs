@@ -14,7 +14,7 @@ namespace Operations
         {
             return a * b;
         }
-        public static double Multiply(double[] arrayA)
+        /*public static double Multiply(double[] arrayA)
         {
             double b = 0.0;
             foreach (double a in arrayA)
@@ -22,7 +22,7 @@ namespace Operations
                 b = Multiply(a, b);
             }
             return b;
-        }
+        }*/
     }
 
 }
