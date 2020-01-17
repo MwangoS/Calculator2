@@ -14,18 +14,27 @@ namespace Operations
         }
 
         public static double Sum(double[] arrayA)
+OperationsTests
          {
              double c = 0.0;
+
+        {
+            double c = 0.0;
+ master
 
              foreach (double a in arrayA)
              {
                  c = Sum(a, c);
              }
 
+ OperationsTests
              return c;
          }
 
        
+
+       
+ master
         public static int Sum(int[] arrayA)
         {
             int c = 0;

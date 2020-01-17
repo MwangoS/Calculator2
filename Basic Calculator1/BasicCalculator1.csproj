@@ -7,7 +7,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Divide1\Divide1.csproj" />
+    <ProjectReference Include="..\Multiply1\Multiply1.csproj" />
     <ProjectReference Include="..\Operations1\Operations1.csproj" />
+    <ProjectReference Include="..\Sqaure1\Square1.csproj" />
+    <ProjectReference Include="..\Subtract1\Subtract1.csproj" />
     <ProjectReference Include="..\Sum1\Sum1.csproj" />
   </ItemGroup>
 
