@@ -14,8 +14,8 @@ namespace Operations.Tests
         private readonly int b = 3;
         private readonly double c = 7.6;
         private readonly double d = 3.2;
-        //private readonly double[] e = { 6.02, 1.3, 2.5 };
-        //private readonly int[] f = { 30, 3, 2, 5 };
+        private readonly double[] e = { 6.02, 1.3, 2.5 };
+        private readonly int[] f = { 30, 3, 2, 5 };
 
         [TestMethod()]
         public void SumTest()
@@ -29,7 +29,7 @@ namespace Operations.Tests
             Assert.AreEqual(10.8, Addition.Sum(c, d));
         }
 
-        /*[TestMethod()]
+        [TestMethod()]
         public void SumDoubleArrayTest()
         {
             Assert.AreEqual(9.82, Addition.Sum(e));
@@ -39,6 +39,6 @@ namespace Operations.Tests
         public void SumIntArrayTest()
         {
             Assert.AreEqual(40, Addition.Sum(f));
-        }*/
+        }
     }
 }
