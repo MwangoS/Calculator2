@@ -10,13 +10,17 @@ namespace Operations.Tests
     public class SquareTests
     {
         private readonly int a = 5;
+        private readonly double b = 2.2;
         [TestMethod()]
         public void SquaredTest()
         {
             Assert.AreEqual(25, Square.Squared(a));
 
+        }
 
-
+        public void SquaredDoubleTest()
+        {
+            Assert.AreEqual(2.84, Square.Squared(b));
         }
     }
 }

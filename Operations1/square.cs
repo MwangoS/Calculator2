@@ -11,10 +11,10 @@ namespace Operations
             return a * a;
         }
 
-        /*public static double Squared(double a)
+        public static double Squared(double a)
         {
             return a * a;
-        }*/
+        }
 
     }
         

@@ -1,18 +1,18 @@
 ﻿using System;
 using Operations;
 
-namespace Squared
+namespace Square
 {
     public interface ISquare
     {
-        public dynamic Squared(dynamic a);
+        public dynamic Square(dynamic a);
     }
     public class Squares : ISquare
     {
         public dynamic result;
-        public dynamic Squared(dynamic a)
+        public dynamic Square(dynamic a)
         {
-            result = Squared(a);
+            result = Square(a);
             return result;
         }
     }
