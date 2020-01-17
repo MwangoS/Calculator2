@@ -8,22 +8,17 @@ using Square;
 
 namespace Basic_Calculator1
 {
-    /*public interface IBasicCalculator
-    {
-        public dynamic Add(dynamic a, dynamic b);
-        public dynamic Divide(dynamic a, dynamic b);
-        public dynamic Subtract1(dynamic a, dynamic b);        
-        public dynamic Square(dynamic a);
-
-    }*/
-
+   
     public class Calculator : IAdd, IDivide, ISubtract, ISquare
     {
         // Creating objects of Geeks1 and Geeks2 class 
         private readonly Adding add = new Adding();
         private readonly Div divide = new Div();
+OperationsTests
+
         private readonly Squares squared = new Squares();
         private readonly Subtraction Subtract = new Subtraction();
+ master
         public dynamic result;
 
         public dynamic Add(dynamic a, dynamic b)

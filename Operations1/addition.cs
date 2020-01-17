@@ -14,23 +14,27 @@ namespace Operations
         }
 
         public static double Sum(double[] arrayA)
+OperationsTests
+         {
+             double c = 0.0;
+
         {
             double c = 0.0;
+ master
 
-            foreach (double a in arrayA)
-            {
-                c = Sum(a, c);
-            }
+             foreach (double a in arrayA)
+             {
+                 c = Sum(a, c);
+             }
 
-            return c;
-        }
-        /*
+ OperationsTests
+             return c;
+         }
 
-        /*public static dynamic Sum(object p, dynamic[] c)
-        {
-            throw new NotImplementedException();
-        }
-        */
+       
+
+       
+ master
         public static int Sum(int[] arrayA)
         {
             int c = 0;
